@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor =[UIColor whiteColor];
+    self.view.backgroundColor =[UIColor mainGrayColor];
+    [self.navigationController.navigationBar setBarTintColor:UIColorFromRGB(0x2bdcff)];
+    [self.navigationController.navigationBar setTitleTextAttributes:
+     @{NSFontAttributeName:[UIFont fontWithName:@"PingFangSC-Regular" size:17],
+       NSForegroundColorAttributeName:[UIColor whiteColor]}];
     // Do any additional setup after loading the view.
 }
 

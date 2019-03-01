@@ -19,8 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window.backgroundColor=[UIColor whiteColor];
     [self changeNavigationBar];
-    UINavigationController * nav=[[UINavigationController alloc] initWithRootViewController:[[KBTabbarController alloc]init]];
-    self.window.rootViewController = nav;
+    self.window.rootViewController = [[KBTabbarController alloc]init];
     return YES;
 }
 - (void)changeNavigationBar
@@ -28,11 +27,11 @@
     //导航条字体颜色设置
     NSDictionary *navbarTitleTextAttributes =
     [NSDictionary dictionaryWithObjectsAndKeys:
-     [UIColor blackColor], NSForegroundColorAttributeName,
+     [UIColor whiteColor], NSForegroundColorAttributeName,
      nil];
     [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
-    //导航条背景
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x2bdcff)];
+//    //导航条背景
+//    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x2bdcff)];
 }
 
 

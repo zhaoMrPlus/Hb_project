@@ -52,6 +52,8 @@
 		6C8B015D2228FE28009897FD /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B014B2228FE27009897FD /* UIWebView+AFNetworking.m */; };
 		6C8B01622228FE53009897FD /* ZZBHttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B015E2228FE53009897FD /* ZZBHttpHandler.m */; };
 		6C8B01632228FE53009897FD /* ZHBHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B015F2228FE53009897FD /* ZHBHttpTool.m */; };
+		6C8B016722290A12009897FD /* Hb_MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B016522290A12009897FD /* Hb_MainCell.m */; };
+		6C8B016822290A12009897FD /* Hb_MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B016622290A12009897FD /* Hb_MainCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +164,9 @@
 		6C8B015F2228FE53009897FD /* ZHBHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBHttpTool.m; sourceTree = "<group>"; };
 		6C8B01602228FE53009897FD /* ZZBHttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBHttpHandler.h; sourceTree = "<group>"; };
 		6C8B01612228FE53009897FD /* ZHBHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBHttpTool.h; sourceTree = "<group>"; };
+		6C8B016422290A12009897FD /* Hb_MainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hb_MainCell.h; sourceTree = "<group>"; };
+		6C8B016522290A12009897FD /* Hb_MainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hb_MainCell.m; sourceTree = "<group>"; };
+		6C8B016622290A12009897FD /* Hb_MainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hb_MainCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,6 +410,9 @@
 		6C8B00EB2228C22A009897FD /* Hb_Views */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B016422290A12009897FD /* Hb_MainCell.h */,
+				6C8B016522290A12009897FD /* Hb_MainCell.m */,
+				6C8B016622290A12009897FD /* Hb_MainCell.xib */,
 			);
 			path = Hb_Views;
 			sourceTree = "<group>";
@@ -610,6 +618,7 @@
 				6C8B010A2228C75D009897FD /* Hb_MyViewController.xib in Resources */,
 				6C8B01052228C745009897FD /* Hb_RecommendViewController.xib in Resources */,
 				6C8B00B22228C06B009897FD /* Main.storyboard in Resources */,
+				6C8B016822290A12009897FD /* Hb_MainCell.xib in Resources */,
 				6C8B00FB2228C702009897FD /* Hb_MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,6 +678,7 @@
 				6C8B01242228C927009897FD /* NSDictionary+SafeData.m in Sources */,
 				6C8B01552228FE28009897FD /* AFSecurityPolicy.m in Sources */,
 				6C8B01522228FE28009897FD /* AFURLRequestSerialization.m in Sources */,
+				6C8B016722290A12009897FD /* Hb_MainCell.m in Sources */,
 				6C8B01092228C75D009897FD /* Hb_MyViewController.m in Sources */,
 				6C8B00FA2228C702009897FD /* Hb_MainViewController.m in Sources */,
 			);
