@@ -15,6 +15,24 @@
 		6C8B00BA2228C070009897FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B00B92228C070009897FD /* main.m */; };
 		6C8B00C42228C071009897FD /* Hb_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B00C32228C071009897FD /* Hb_ProjectTests.m */; };
 		6C8B00CF2228C071009897FD /* Hb_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B00CE2228C071009897FD /* Hb_ProjectUITests.m */; };
+		6C8B00F42228C628009897FD /* KBTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B00F22228C628009897FD /* KBTabbarController.m */; };
+		6C8B00FA2228C702009897FD /* Hb_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B00F82228C702009897FD /* Hb_MainViewController.m */; };
+		6C8B00FB2228C702009897FD /* Hb_MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B00F92228C702009897FD /* Hb_MainViewController.xib */; };
+		6C8B00FF2228C735009897FD /* Hb_CommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B00FD2228C735009897FD /* Hb_CommunityViewController.m */; };
+		6C8B01002228C735009897FD /* Hb_CommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B00FE2228C735009897FD /* Hb_CommunityViewController.xib */; };
+		6C8B01042228C745009897FD /* Hb_RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B01022228C745009897FD /* Hb_RecommendViewController.m */; };
+		6C8B01052228C745009897FD /* Hb_RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B01032228C745009897FD /* Hb_RecommendViewController.xib */; };
+		6C8B01092228C75D009897FD /* Hb_MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B01072228C75D009897FD /* Hb_MyViewController.m */; };
+		6C8B010A2228C75D009897FD /* Hb_MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C8B01082228C75D009897FD /* Hb_MyViewController.xib */; };
+		6C8B010D2228C77F009897FD /* Hb_BassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B010C2228C77F009897FD /* Hb_BassViewController.m */; };
+		6C8B011E2228C927009897FD /* UIColor+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B01102228C926009897FD /* UIColor+Factory.m */; };
+		6C8B011F2228C927009897FD /* NSString+Extent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B01112228C926009897FD /* NSString+Extent.m */; };
+		6C8B01202228C927009897FD /* UIView+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B01142228C926009897FD /* UIView+RMAdditions.m */; };
+		6C8B01212228C927009897FD /* UIImageView+Extent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B01172228C926009897FD /* UIImageView+Extent.m */; };
+		6C8B01222228C927009897FD /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B01182228C926009897FD /* UITextView+Placeholder.m */; };
+		6C8B01232228C927009897FD /* NSMutableArray+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B011A2228C927009897FD /* NSMutableArray+Common.m */; };
+		6C8B01242228C927009897FD /* NSDictionary+SafeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B011B2228C927009897FD /* NSDictionary+SafeData.m */; };
+		6C8B01252228C927009897FD /* UIViewController+YCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B011C2228C927009897FD /* UIViewController+YCCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +70,38 @@
 		6C8B00CE2228C071009897FD /* Hb_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hb_ProjectUITests.m; sourceTree = "<group>"; };
 		6C8B00D02228C071009897FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C8B00F12228C25C009897FD /* Hb_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hb_PrefixHeader.pch; sourceTree = "<group>"; };
+		6C8B00F22228C628009897FD /* KBTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTabbarController.m; sourceTree = "<group>"; };
+		6C8B00F32228C628009897FD /* KBTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTabbarController.h; sourceTree = "<group>"; };
+		6C8B00F72228C702009897FD /* Hb_MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hb_MainViewController.h; sourceTree = "<group>"; };
+		6C8B00F82228C702009897FD /* Hb_MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hb_MainViewController.m; sourceTree = "<group>"; };
+		6C8B00F92228C702009897FD /* Hb_MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hb_MainViewController.xib; sourceTree = "<group>"; };
+		6C8B00FC2228C735009897FD /* Hb_CommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hb_CommunityViewController.h; sourceTree = "<group>"; };
+		6C8B00FD2228C735009897FD /* Hb_CommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hb_CommunityViewController.m; sourceTree = "<group>"; };
+		6C8B00FE2228C735009897FD /* Hb_CommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hb_CommunityViewController.xib; sourceTree = "<group>"; };
+		6C8B01012228C745009897FD /* Hb_RecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hb_RecommendViewController.h; sourceTree = "<group>"; };
+		6C8B01022228C745009897FD /* Hb_RecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hb_RecommendViewController.m; sourceTree = "<group>"; };
+		6C8B01032228C745009897FD /* Hb_RecommendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hb_RecommendViewController.xib; sourceTree = "<group>"; };
+		6C8B01062228C75D009897FD /* Hb_MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hb_MyViewController.h; sourceTree = "<group>"; };
+		6C8B01072228C75D009897FD /* Hb_MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hb_MyViewController.m; sourceTree = "<group>"; };
+		6C8B01082228C75D009897FD /* Hb_MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Hb_MyViewController.xib; sourceTree = "<group>"; };
+		6C8B010B2228C77F009897FD /* Hb_BassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hb_BassViewController.h; sourceTree = "<group>"; };
+		6C8B010C2228C77F009897FD /* Hb_BassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hb_BassViewController.m; sourceTree = "<group>"; };
+		6C8B010E2228C925009897FD /* UIViewController+YCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YCCommon.h"; sourceTree = "<group>"; };
+		6C8B010F2228C925009897FD /* UIColor+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Factory.h"; sourceTree = "<group>"; };
+		6C8B01102228C926009897FD /* UIColor+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Factory.m"; sourceTree = "<group>"; };
+		6C8B01112228C926009897FD /* NSString+Extent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extent.m"; sourceTree = "<group>"; };
+		6C8B01122228C926009897FD /* NSMutableArray+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Common.h"; sourceTree = "<group>"; };
+		6C8B01132228C926009897FD /* UIImageView+Extent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extent.h"; sourceTree = "<group>"; };
+		6C8B01142228C926009897FD /* UIView+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RMAdditions.m"; sourceTree = "<group>"; };
+		6C8B01152228C926009897FD /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		6C8B01162228C926009897FD /* NSDictionary+SafeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeData.h"; sourceTree = "<group>"; };
+		6C8B01172228C926009897FD /* UIImageView+Extent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extent.m"; sourceTree = "<group>"; };
+		6C8B01182228C926009897FD /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		6C8B01192228C927009897FD /* NSString+Extent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extent.h"; sourceTree = "<group>"; };
+		6C8B011A2228C927009897FD /* NSMutableArray+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Common.m"; sourceTree = "<group>"; };
+		6C8B011B2228C927009897FD /* NSDictionary+SafeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeData.m"; sourceTree = "<group>"; };
+		6C8B011C2228C927009897FD /* UIViewController+YCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YCCommon.m"; sourceTree = "<group>"; };
+		6C8B011D2228C927009897FD /* UIView+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RMAdditions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +209,22 @@
 		6C8B00DE2228C143009897FD /* Hb_BaseLiibrary */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B01162228C926009897FD /* NSDictionary+SafeData.h */,
+				6C8B011B2228C927009897FD /* NSDictionary+SafeData.m */,
+				6C8B01122228C926009897FD /* NSMutableArray+Common.h */,
+				6C8B011A2228C927009897FD /* NSMutableArray+Common.m */,
+				6C8B01192228C927009897FD /* NSString+Extent.h */,
+				6C8B01112228C926009897FD /* NSString+Extent.m */,
+				6C8B010F2228C925009897FD /* UIColor+Factory.h */,
+				6C8B01102228C926009897FD /* UIColor+Factory.m */,
+				6C8B01132228C926009897FD /* UIImageView+Extent.h */,
+				6C8B01172228C926009897FD /* UIImageView+Extent.m */,
+				6C8B01152228C926009897FD /* UITextView+Placeholder.h */,
+				6C8B01182228C926009897FD /* UITextView+Placeholder.m */,
+				6C8B011D2228C927009897FD /* UIView+RMAdditions.h */,
+				6C8B01142228C926009897FD /* UIView+RMAdditions.m */,
+				6C8B010E2228C925009897FD /* UIViewController+YCCommon.h */,
+				6C8B011C2228C927009897FD /* UIViewController+YCCommon.m */,
 			);
 			path = Hb_BaseLiibrary;
 			sourceTree = "<group>";
@@ -166,6 +232,8 @@
 		6C8B00DF2228C143009897FD /* Hb_Base */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B010B2228C77F009897FD /* Hb_BassViewController.h */,
+				6C8B010C2228C77F009897FD /* Hb_BassViewController.m */,
 			);
 			path = Hb_Base;
 			sourceTree = "<group>";
@@ -191,6 +259,8 @@
 		6C8B00E22228C162009897FD /* Hb_Tabar */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B00F32228C628009897FD /* KBTabbarController.h */,
+				6C8B00F22228C628009897FD /* KBTabbarController.m */,
 			);
 			path = Hb_Tabar;
 			sourceTree = "<group>";
@@ -225,6 +295,9 @@
 		6C8B00E62228C1D3009897FD /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B01062228C75D009897FD /* Hb_MyViewController.h */,
+				6C8B01072228C75D009897FD /* Hb_MyViewController.m */,
+				6C8B01082228C75D009897FD /* Hb_MyViewController.xib */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -256,6 +329,9 @@
 		6C8B00EA2228C221009897FD /* Hb_Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B00FC2228C735009897FD /* Hb_CommunityViewController.h */,
+				6C8B00FD2228C735009897FD /* Hb_CommunityViewController.m */,
+				6C8B00FE2228C735009897FD /* Hb_CommunityViewController.xib */,
 			);
 			path = Hb_Controllers;
 			sourceTree = "<group>";
@@ -277,6 +353,9 @@
 		6C8B00ED2228C22A009897FD /* Hb_Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B00F72228C702009897FD /* Hb_MainViewController.h */,
+				6C8B00F82228C702009897FD /* Hb_MainViewController.m */,
+				6C8B00F92228C702009897FD /* Hb_MainViewController.xib */,
 			);
 			path = Hb_Controllers;
 			sourceTree = "<group>";
@@ -298,6 +377,9 @@
 		6C8B00F02228C231009897FD /* Hb_Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6C8B01012228C745009897FD /* Hb_RecommendViewController.h */,
+				6C8B01022228C745009897FD /* Hb_RecommendViewController.m */,
+				6C8B01032228C745009897FD /* Hb_RecommendViewController.xib */,
 			);
 			path = Hb_Controllers;
 			sourceTree = "<group>";
@@ -406,8 +488,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C8B00B72228C070009897FD /* LaunchScreen.storyboard in Resources */,
+				6C8B01002228C735009897FD /* Hb_CommunityViewController.xib in Resources */,
 				6C8B00B42228C070009897FD /* Assets.xcassets in Resources */,
+				6C8B010A2228C75D009897FD /* Hb_MyViewController.xib in Resources */,
+				6C8B01052228C745009897FD /* Hb_RecommendViewController.xib in Resources */,
 				6C8B00B22228C06B009897FD /* Main.storyboard in Resources */,
+				6C8B00FB2228C702009897FD /* Hb_MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +518,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8B011E2228C927009897FD /* UIColor+Factory.m in Sources */,
+				6C8B01222228C927009897FD /* UITextView+Placeholder.m in Sources */,
+				6C8B00F42228C628009897FD /* KBTabbarController.m in Sources */,
 				6C8B00AF2228C06B009897FD /* ViewController.m in Sources */,
+				6C8B01212228C927009897FD /* UIImageView+Extent.m in Sources */,
+				6C8B01252228C927009897FD /* UIViewController+YCCommon.m in Sources */,
+				6C8B01232228C927009897FD /* NSMutableArray+Common.m in Sources */,
+				6C8B011F2228C927009897FD /* NSString+Extent.m in Sources */,
+				6C8B00FF2228C735009897FD /* Hb_CommunityViewController.m in Sources */,
+				6C8B01202228C927009897FD /* UIView+RMAdditions.m in Sources */,
 				6C8B00BA2228C070009897FD /* main.m in Sources */,
+				6C8B010D2228C77F009897FD /* Hb_BassViewController.m in Sources */,
 				6C8B00AC2228C06B009897FD /* AppDelegate.m in Sources */,
+				6C8B01042228C745009897FD /* Hb_RecommendViewController.m in Sources */,
+				6C8B01242228C927009897FD /* NSDictionary+SafeData.m in Sources */,
+				6C8B01092228C75D009897FD /* Hb_MyViewController.m in Sources */,
+				6C8B00FA2228C702009897FD /* Hb_MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "KBTabbarController.h"
+#import "UIColor+Factory.h"
 @interface AppDelegate ()
 
 @end
@@ -17,10 +18,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window.backgroundColor=[UIColor whiteColor];
-    
-    
-    // Override point for customization after application launch.
+    [self changeNavigationBar];
+    UINavigationController * nav=[[UINavigationController alloc] initWithRootViewController:[[KBTabbarController alloc]init]];
+    self.window.rootViewController = nav;
     return YES;
+}
+- (void)changeNavigationBar
+{
+    //导航条字体颜色设置
+    NSDictionary *navbarTitleTextAttributes =
+    [NSDictionary dictionaryWithObjectsAndKeys:
+     [UIColor blackColor], NSForegroundColorAttributeName,
+     nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
+    //导航条背景
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x2bdcff)];
 }
 
 
