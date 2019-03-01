@@ -11,7 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Hb_MainCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *Hb_Image;
+@property (weak, nonatomic) IBOutlet UILabel *Hb_titleLb;
 
+@property (weak, nonatomic) IBOutlet UILabel *Hb_contentLb;
 @end
 
 NS_ASSUME_NONNULL_END

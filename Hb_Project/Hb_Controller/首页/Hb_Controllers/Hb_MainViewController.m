@@ -25,11 +25,26 @@
     [super viewDidLoad];
     sectionHeaderHeight = 40;
     dataSource = [[NSMutableArray alloc] init];
-    for(int i=0;i<100;i++)
-    {
-        NSString * name = [NSString stringWithFormat:@"%d",i];
-        [dataSource addObject:name];
-    }
+
+    [dataSource addObject:@{@"title":@"记你的你的哪等你",@"content":@"记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你"}];
+        [dataSource addObject:@{@"title":@"为你的你的内地嫩爹",@"content":@"记你的你的哪等你跌得爹妈跌跌跌买碟买碟碟碟鸡"}];
+        [dataSource addObject:@{@"title":@"哈哈哈哈哈哈哈哈",@"content":@"得多么都饿，都饿哦的哦没得多么恶魔的的几得叫叠加叠加地诶基地将诶大结局爹间谍"}];
+        [dataSource addObject:@{@"title":@"米的好肚饿股的吧唧的间谍",@"content":@"的对口饿哭都饿哭都饿空的课哦大口饿哭都饿哭都饿哭都饿哭都饿哭都饿哭的"}];
+        [dataSource addObject:@{@"title":@"哈哈哈哈哈啊哈哈哈哈哈你呢",@"content":@"v 有反弹的毒蒽的ID金额 u 好肚饿肚饿肚饿吧胡的互动和 u 好肚饿大河"}];
+        [dataSource addObject:@{@"title":@"特别的毒液好肚饿好肚饿好肚饿好肚饿",@"content":@"魔都诶扽和 uu 卡联赛岁的呢大家额度很低恶魔的空妈妈和没联系啦什么可伤心"}];
+        [dataSource addObject:@{@"title":@"的牛护肤润肤乳后放入繁华如风",@"content":@"得叫都饿空对你的 u 好肚饿好肚饿互动和 u 的和 u 的护额大户饿好肚饿大户恶化"}];
+        [dataSource addObject:@{@"title":@"特价的呢 u 肚饿",@"content":@"最难得的夜光运动和 u 的黑蝶蝴蝶蝴蝶蝴蝶蝴蝶蝴蝶蝴蝶"}];
+        [dataSource addObject:@{@"title":@"不懂夜的被大本营大本营的背影",@"content":@"的嫉妒诶间谍局递交诶到家诶大结局爹的低价额"}];
+        [dataSource addObject:@{@"title":@"记你的你的哪等你",@"content":@"记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你"}];
+        [dataSource addObject:@{@"title":@"为你的你的内地嫩爹",@"content":@"记你的你的哪等你跌得爹妈跌跌跌买碟买碟碟碟鸡"}];
+        [dataSource addObject:@{@"title":@"哈哈哈哈哈哈哈哈",@"content":@"得多么都饿，都饿哦的哦没得多么恶魔的的几得叫叠加叠加地诶基地将诶大结局爹间谍"}];
+        [dataSource addObject:@{@"title":@"米的好肚饿股的吧唧的间谍",@"content":@"的对口饿哭都饿哭都饿空的课哦大口饿哭都饿哭都饿哭都饿哭都饿哭都饿哭的"}];
+        [dataSource addObject:@{@"title":@"哈哈哈哈哈啊哈哈哈哈哈你呢",@"content":@"v 有反弹的毒蒽的ID金额 u 好肚饿肚饿肚饿吧胡的互动和 u 好肚饿大河"}];
+        [dataSource addObject:@{@"title":@"特别的毒液好肚饿好肚饿好肚饿好肚饿",@"content":@"魔都诶扽和 uu 卡联赛岁的呢大家额度很低恶魔的空妈妈和没联系啦什么可伤心"}];
+        [dataSource addObject:@{@"title":@"的牛护肤润肤乳后放入繁华如风",@"content":@"得叫都饿空对你的 u 好肚饿好肚饿互动和 u 的和 u 的护额大户饿好肚饿大户恶化"}];
+        [dataSource addObject:@{@"title":@"特价的呢 u 肚饿",@"content":@"最难得的夜光运动和 u 的黑蝶蝴蝶蝴蝶蝴蝶蝴蝶蝴蝶蝴蝶"}];
+        [dataSource addObject:@{@"title":@"不懂夜的被大本营大本营的背影",@"content":@"的嫉妒诶间谍局递交诶到家诶大结局爹的低价额"}];
+
     [self.mainTableVeiw registerNib:[UINib nibWithNibName:@"Hb_MainCell" bundle:nil] forCellReuseIdentifier:@"cell"];
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -39,13 +54,18 @@
     return [dataSource count];
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    Hb_MainCell * cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    static NSString * iden = @"cell";
+    Hb_MainCell * cell = [tableView dequeueReusableCellWithIdentifier:iden];
     if (!cell) {
-        cell = [[Hb_MainCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+        cell = [[Hb_MainCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:iden];
     }
-    NSString * str = [dataSource objectAtIndex:indexPath.row];
-    cell.textLabel.text = str;
-
+    
+    NSString * str = [dataSource objectAtIndex:indexPath.row][@"title"];
+    NSString * str1 = [dataSource objectAtIndex:indexPath.row][@"content"];
+    cell.Hb_titleLb.text = str;
+    cell.Hb_contentLb.text = str1;
+    cell.Hb_Image.backgroundColor=randomColor;
+    
     return cell;
 }
 
