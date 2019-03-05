@@ -16,16 +16,13 @@
     CGFloat sectionHeaderHeight;    //section的header高度
 }
 @property (weak, nonatomic) IBOutlet UITableView *mainTableVeiw;
-
 @end
-
 @implementation Hb_MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     sectionHeaderHeight = 40;
     dataSource = [[NSMutableArray alloc] init];
-
     [dataSource addObject:@{@"title":@"记你的你的哪等你",@"content":@"记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你记你的你的哪等你"}];
         [dataSource addObject:@{@"title":@"为你的你的内地嫩爹",@"content":@"记你的你的哪等你跌得爹妈跌跌跌买碟买碟碟碟鸡"}];
         [dataSource addObject:@{@"title":@"哈哈哈哈哈哈哈哈",@"content":@"得多么都饿，都饿哦的哦没得多么恶魔的的几得叫叠加叠加地诶基地将诶大结局爹间谍"}];
@@ -65,7 +62,6 @@
     cell.Hb_titleLb.text = str;
     cell.Hb_contentLb.text = str1;
     cell.Hb_Image.backgroundColor=randomColor;
-    
     return cell;
 }
 
@@ -103,6 +99,14 @@
             [self.mainTableVeiw reloadData];
         }];
     }
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return Hb_ScreenH / 2;
+}
+-(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    UIView *v=[[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, Hb_ScreenH/2)];
+    
+    return v;
 }
 /*
 #pragma mark - Navigation
